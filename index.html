@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jeffrey Pinarchick | Data Science &amp; Analytics</title>
+  <meta name="description" content="Jeffrey Pinarchick: M.S. candidate in Data Science &amp; Analytics at Georgetown. NLP, deep learning, interpretability, and applied analytics.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#intro">Skip to content</a>
+
+  <header class="nav-wrap">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="#intro">JP</a>
+      <ul>
+        <li><a href="#intro">Intro</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- INTRO -->
+    <section id="intro" class="intro">
+      <div class="intro-text">
+        <p class="eyebrow">M.S. Candidate · Georgetown University</p>
+        <h1>Jeffrey Pinarchick</h1>
+        <p class="tagline">NLP · Interpretability · Data Science</p>
+        <p class="skills-line">Python · PyTorch · Hugging Face · R · SQL · Spark · Snowflake</p>
+        <p class="bio">
+          I'm a graduate student in Data Science &amp; Analytics at Georgetown (4.0 GPA, ANLY Scholarship),
+          focused on how language models work and how to measure what they pick up from text.
+          Before and alongside grad school I've done applied analytics in fundraising and economic research.
+          I'm also a teaching assistant for Georgetown's Intro to Programming sequence.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">View projects</a>
+          <a class="btn" href="https://github.com/jp2249">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/jeffrey-pinarchick">LinkedIn</a>
+          <a class="btn" href="Jeffrey-Pinarchick-Resume.pdf">Resume (PDF)</a>
+          <a class="btn" href="mailto:jbpin17@gmail.com">Email</a>
+        </div>
+      </div>
+      <!-- Optional headshot: save a square photo as assets/headshot.jpg and uncomment.
+      <img class="headshot" src="assets/headshot.jpg" alt="Portrait of Jeffrey Pinarchick" width="220" height="220">
+      -->
+    </section>
+
+    <!-- RESEARCH FOCUS -->
+    <section class="focus" aria-labelledby="focus-h">
+      <h2 id="focus-h">Focus areas</h2>
+      <ul class="focus-grid">
+        <li><strong>Model interpretability</strong><span>Looking inside transformers to see how inputs change internal states.</span></li>
+        <li><strong>Text &amp; sentiment analysis</strong><span>Emotion, bias, and classification on unstructured language data.</span></li>
+        <li><strong>Statistical modeling</strong><span>Regression and retention modeling, plus visualization that supports decisions.</span></li>
+      </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <article class="project">
+        <p class="date">Georgetown University</p>
+        <h3>ModelLens: Interpreting PyTorch Neural Networks</h3>
+        <p class="subtitle">AI interpretability platform: Python package, Streamlit app, and transformer tools</p>
+        <p>
+          Built a platform for analyzing the internal states of neural networks across architectures.
+          It tracks how corrupted inputs diverge from clean inputs as they move through the network,
+          and was applied to LLMs such as GPT-2 (774 million parameters).
+        </p>
+        <p class="tags">PyTorch · Transformers · Streamlit · Python</p>
+        <p class="links"><a href="https://github.com/jp2249/DSAN-6600-ModelLens">Repository →</a></p>
+      </article>
+
+      <article class="project">
+        <p class="date">Georgetown University</p>
+        <h3>Final Thoughts: Sentiment Analysis on Last Statements</h3>
+        <p class="subtitle">Emotion detection and text classification on death row final statements</p>
+        <p>
+          Built a Python NLP framework to extract patterns from unstructured text, including a custom
+          "Remorse Score." The analysis found that 21% of inmates expressed some form of remorse,
+          love, or gratitude in their final moments.
+        </p>
+        <p class="tags">Python · NLP · Text classification</p>
+        <p class="links"><a href="https://github.com/jp2249/5400-Final-Project">Repository →</a></p>
+      </article>
+
+      <article class="project">
+        <p class="date">Georgetown University</p>
+        <h3>Extra! Extra! Global Sentiment and Bias in News Headlines</h3>
+        <p class="subtitle">Comparing U.S. and international headlines over time</p>
+        <p>
+          Compared sentiment and bias in U.S. and international news headlines using the Hugging Face
+          datasets library and VADER. U.S. headlines scored lower on sentiment and became less
+          sentimental over time relative to those from other countries.
+        </p>
+        <p class="tags">Hugging Face Datasets · VADER · Dbias · Python</p>
+        <p class="links"><a href="https://github.com/jp2249/ExtraExtra">Repository →</a></p>
+      </article>
+
+      <article class="project">
+        <p class="date">Elon University</p>
+        <h3>Predicting Key Factors of NFL Contracts</h3>
+        <p class="subtitle">Contract extension and salary modeling, 2009–2020</p>
+        <p>
+          Scraped NFL player performance and contract data and built logistic and linear regression
+          models in R to identify what drives contract extension decisions and to predict salary outcomes.
+        </p>
+        <p class="tags">R · Regression · Web scraping</p>
+      </article>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <h2>Experience</h2>
+
+      <div class="role">
+        <div class="role-head"><h3>Fundraising Consultant</h3><span class="date">Feb 2026 – May 2026</span></div>
+        <p class="org">Belmont University · Nashville, TN</p>
+        <ul>
+          <li>Ran root cause analysis on data integrity issues across university account records and recommended corrective actions.</li>
+          <li>Used Excel and Salesforce to reconcile and validate more than 100,000 donation account records into an audit-ready dataset.</li>
+        </ul>
+      </div>
+
+      <div class="role">
+        <div class="role-head"><h3>Fundraising Analyst</h3><span class="date">Feb 2025 – Nov 2026</span></div>
+        <p class="org">Dodson Analytics · Washington, DC</p>
+        <ul>
+          <li>Built a logistic regression model in IBM SPSS to predict major donor retention over 5–7 years and identify the factors most associated with continued giving.</li>
+          <li>Constructed gift pyramids and fundraising visualizations to identify critical donor segments in support of long-term goals.</li>
+        </ul>
+      </div>
+
+      <div class="role">
+        <div class="role-head"><h3>Teaching Assistant</h3><span class="date">Aug 2026 – Dec 2026</span></div>
+        <p class="org">Georgetown University · Intro to Programming II &amp; III</p>
+      </div>
+
+      <div class="role">
+        <div class="role-head"><h3>Research Assistant Intern</h3><span class="date">Jun 2022 – Aug 2022</span></div>
+        <p class="org">Resolution Economics · Washington, DC</p>
+        <ul>
+          <li>Revamped compensation analysis programs in SAS and R supporting wage-and-hour investigations, including statistical analysis of payroll and workforce data to assess compliance and quantify exposure.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+      <h2>Education</h2>
+
+      <div class="role">
+        <div class="role-head"><h3>Georgetown University</h3><span class="date">Aug 2025 – May 2027</span></div>
+        <p class="org">M.S., Data Science &amp; Analytics · Graduate School of Arts and Sciences</p>
+        <ul>
+          <li>ANLY Scholarship recipient · GPA 4.0</li>
+          <li>Coursework: Computational Linguistics, Neural Networks / Advanced Deep Learning, Advanced Data Visualization, Statistical Learning for Analytics, Probability Modeling / Statistical Computing</li>
+        </ul>
+      </div>
+
+      <div class="role">
+        <div class="role-head"><h3>Elon University</h3><span class="date">Aug 2019 – May 2023</span></div>
+        <p class="org">B.S., Statistics (Actuarial Statistics) · Elon College of Arts and Sciences</p>
+        <ul>
+          <li>Elon College Fellow Scholarship · Mu Sigma Rho (national statistics honor society) · Omega Delta Epsilon (national economics honor society) · Delta Sigma Pi</li>
+          <li>President of Mu Sigma Rho; VP of Professional Events and Alumni Relations, Delta Sigma Pi</li>
+        </ul>
+      </div>
+
+      <p class="note">Certification: Data Management in SQL (Cornell University)</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="yr">2026</span> Jeffrey Pinarchick · Washington, DC</p>
+    <p><a href="mailto:jbpin17@gmail.com">Email</a> · <a href="https://github.com/jp2249">GitHub</a> · <a href="https://www.linkedin.com/in/jeffrey-pinarchick">LinkedIn</a></p>
+  </footer>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
